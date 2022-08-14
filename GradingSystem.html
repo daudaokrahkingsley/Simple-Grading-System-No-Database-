@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="GradingSystem.css" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <fieldset>
+      <legend>STUDENT INFO</legend>
+      <label>
+        ADMISSION NUMBER <input type="text" class="num" maxlength="4" />
+      </label>
+      <label class="season"
+        >SEASON <input type="text" class="sea" maxlength="9" />
+      </label>
+      <label class="name">STUDENT NAME<input type="text" class="name" /></label
+      ><br />
+      <label class="class">CLASS<input type="text" class="class" /></label
+      ><br />
+
+      <p>TERM</p>
+      <select class="term1">
+        <option>First</option>
+        <option>Second</option>
+        <option>Third</option>
+      </select>
+    </fieldset>
+    <br />
+    <br />
+    <h1>Admin- side</h1>
+    <br />
+    <div class="resultsB">
+      <label
+        >MATHEMATICS
+        <input type="text" class="matI" id="maths" maxlength="2" /></label
+      ><br />
+
+      <label
+        >PHYSICS <input type="text" class="phI" id="phy" maxlength="2" /></label
+      ><br />
+
+      <label
+        >BIOLOGY
+        <input type="text" class="bioI" id="bio" maxlength="2" /></label
+      ><br />
+
+      <label
+        >CHEMISTRY
+        <input type="text" class="chI" id="chem" maxlength="2" /></label
+      ><br />
+
+      <label
+        >GEOGRAPHY
+        <input type="text" class="geI" id="geog" maxlength="2" /></label
+      ><br />
+
+      <label
+        >ENGLISH LANG
+        <input type="text" class="enI" id="eng" maxlength="2" /></label
+      ><br />
+
+      <label
+        >COMPUTING
+        <input type="text" class="coI" id="com" maxlength="2" /></label
+      ><br />
+
+      <button onclick="myFunction()">Calculate</button>
+    </div>
+
+    <br />
+    <hr />
+    <h1>Student side</h1>
+
+    <div class="box2">
+      <label
+        >MATHEMATICS <input type="text" class="matI" id="mat" readonly
+      /></label>
+      <input type="text" class="mat2" id="maR" readonly />
+
+      <br />
+
+      <label>PHYSICS <input type="text" class="phI" id="ph" readonly /></label
+      ><input type="text" class="ph2" id="phR" readonly /><br />
+
+      <label>BIOLOGY <input type="text" class="bioI" id="bi" readonly /></label
+      ><input type="text" class="bio2" id="biR" readonly /><br />
+
+      <label>CHEMISTRY <input type="text" class="chI" id="ch" readonly /></label
+      ><input type="text" class="ch2" id="chR" readonly /><br />
+
+      <label>GEOGRAPHY <input type="text" class="geI" id="ge" readonly /></label
+      ><input type="text" class="ge2" id="geR" readonly /><br />
+
+      <label
+        >ENGLISH LANG <input type="text" class="enI" id="en" readonly /></label
+      ><input type="text" class="en2" id="enR" readonly /><br />
+
+      <label>COMPUTING <input type="text" class="coI" id="co" readonly /></label
+      ><input type="text" class="co2" id="coR" readonly /><br />
+
+      <label class="totalM"
+        >MARK OBTAINED <input class="total" id="tot" maxlength="3" readonly />
+      </label>
+    </div>
+
+    <!-- Blinking Aspect -->
+
+    <div id="odk">PROJECT BY KINGSLEY DAUDA OKRAH. copyright</div>
+
+    <!-- Dark Mode or light -->
+
+    <input id="mode1" type="button" value="Mode" onclick="mode()" />
+
+    <script src="GradingSystem.js"></script>
+  </body>
+</html>

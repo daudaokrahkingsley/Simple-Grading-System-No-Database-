@@ -1,0 +1,274 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+fieldset {
+  margin-top: 20px;
+  margin-left: 20px;
+  height: 180px;
+  width: 50%;
+  border: 2px white solid;
+}
+
+.num {
+  height: 27px;
+  outline: none;
+  border: 1px solid black;
+  background-color: rgb(116, 92, 92);
+  color: white;
+  font-weight: bolder;
+}
+
+.sea {
+  width: 90px;
+  margin-left: 6px;
+  margin-top: 16px;
+  border: 1px black solid;
+  outline: none;
+  height: 27px;
+  background-color: rgb(116, 92, 92);
+  color: white;
+}
+
+.season {
+  margin-left: 140px;
+  margin-top: 20px;
+}
+
+.name {
+  margin-top: 30px;
+}
+.name input {
+  margin-left: 43px;
+  border: 1px black solid;
+  outline: none;
+  height: 27px;
+  background-color: rgb(116, 92, 92);
+  color: white;
+}
+
+.class {
+  margin-top: 25px;
+}
+
+.class input {
+  margin-left: 116px;
+  border: 1px black solid;
+  outline: none;
+  height: 27px;
+  background-color: rgb(116, 92, 92);
+  color: white;
+}
+
+.term1,
+option {
+  position: absolute;
+  left: 43.5%;
+  bottom: 81%;
+  width: 7%;
+  height: 27px;
+  background-color: rgb(116, 92, 92);
+  color: white;
+}
+
+p {
+  position: absolute;
+  left: 38%;
+  bottom: 82%;
+}
+
+body {
+  background: rgb(230, 137, 15);
+}
+
+h1 {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.resultsB {
+  margin-left: 30px;
+}
+
+.matI {
+  margin-left: 140px;
+  outline: none;
+  border: black 1px solid;
+  width: 6%;
+  height: 27px;
+  text-align: center;
+}
+
+.phI {
+  margin-top: 15px;
+  margin-left: 188px;
+  outline: none;
+  border: black 1px solid;
+  width: 6%;
+  height: 27px;
+  text-align: center;
+}
+
+.bioI {
+  margin-top: 15px;
+  margin-left: 182px;
+  outline: none;
+  border: black 1px solid;
+  width: 6%;
+  height: 27px;
+  text-align: center;
+}
+
+.chI {
+  margin-top: 15px;
+  margin-left: 163px;
+  outline: none;
+  border: black 1px solid;
+  width: 6%;
+  height: 27px;
+  text-align: center;
+}
+
+.geI {
+  margin-top: 15px;
+  margin-left: 156px;
+  outline: none;
+  border: black 1px solid;
+  width: 6%;
+  height: 27px;
+  text-align: center;
+}
+
+.enI {
+  margin-top: 15px;
+  margin-left: 137px;
+  outline: none;
+  border: black 1px solid;
+  width: 6%;
+  height: 27px;
+  text-align: center;
+}
+
+.coI {
+  margin-top: 15px;
+  margin-left: 159px;
+  outline: none;
+  border: black 1px solid;
+  width: 6%;
+  height: 27px;
+  text-align: center;
+}
+
+hr {
+  border: 1px solid black;
+}
+
+.box2 {
+  margin-left: 30px;
+}
+
+.mat2 {
+  height: 27px;
+  width: 10%;
+  border: black 1px solid;
+  outline: none;
+  margin-left: 116px;
+}
+
+.ph2 {
+  height: 27px;
+  width: 10%;
+  border: black 1px solid;
+  outline: none;
+  margin-left: 120px;
+}
+
+.bio2 {
+  height: 27px;
+  width: 10%;
+  border: black 1px solid;
+  outline: none;
+  margin-left: 120px;
+}
+
+.ch2 {
+  height: 27px;
+  width: 10%;
+  border: black 1px solid;
+  outline: none;
+  margin-left: 120px;
+}
+
+.ge2 {
+  height: 27px;
+  width: 10%;
+  border: black 1px solid;
+  outline: none;
+  margin-left: 120px;
+}
+
+.en2 {
+  height: 27px;
+  width: 10%;
+  border: black 1px solid;
+  outline: none;
+  margin-left: 120px;
+}
+
+.co2 {
+  height: 27px;
+  width: 10%;
+  border: black 1px solid;
+  outline: none;
+  margin-left: 120px;
+}
+
+.total input {
+  position: absolute;
+  left: 70%;
+  bottom: 1%;
+}
+
+.totalM {
+  position: absolute;
+  left: 60%;
+  bottom: -21%;
+}
+
+.totalM input {
+  height: 27px;
+  width: 25%;
+  outline: none;
+  border: 1px black solid;
+}
+
+button {
+  width: 10%;
+  height: 20px;
+  margin-top: 30px;
+}
+
+#odk {
+  position: absolute;
+  left: 60%;
+  bottom: 50%;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#mode1 {
+  position: absolute;
+  bottom: 90%;
+  left: 95%;
+}
+
+.mode {
+  background-color: rgb(36, 5, 5);
+  color: white;
+}
+
+/* KINGSLEY OKRAH DAUDA */
